@@ -6,7 +6,7 @@
 //  Copyright © 2019年 Quanxi Zhixin. All rights reserved.
 //
 
-class PDXTools {
+public class PDXTools {
     
     func testPrint() {
         print("ssssss")
