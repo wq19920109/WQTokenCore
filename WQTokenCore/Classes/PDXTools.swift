@@ -8,7 +8,7 @@
 
 public class PDXTools {
     
-    static func testPrint() {
+    public static func testPrint() {
         print("ssssss")
     }
     
