@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WQTokenCore_Example' do
+  pod 'WQTokenCore', :path => '../'
+
+  target 'WQTokenCore_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
