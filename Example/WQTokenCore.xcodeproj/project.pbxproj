@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24BB15FF24D11EB7002B3C07 /* PDXTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BB15FE24D11EB7002B3C07 /* PDXTools.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,7 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		32A2C1B8F6DC3DCF1C1ECDB2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		24BB15FE24D11EB7002B3C07 /* PDXTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PDXTools.swift; path = ../../WQTokenCore/Classes/PDXTools.swift; sourceTree = "<group>"; };
+		32A2C1B8F6DC3DCF1C1ECDB2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4C56DB44E46CF175ED9D5874 /* Pods-WQTokenCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQTokenCore_Example.debug.xcconfig"; path = "Target Support Files/Pods-WQTokenCore_Example/Pods-WQTokenCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* WQTokenCore_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WQTokenCore_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,10 +45,10 @@
 		755591BD0CF97A414CACAB79 /* Pods-WQTokenCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQTokenCore_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WQTokenCore_Tests/Pods-WQTokenCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8298B50D2D488DD3256AE264 /* Pods-WQTokenCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQTokenCore_Example.release.xcconfig"; path = "Target Support Files/Pods-WQTokenCore_Example/Pods-WQTokenCore_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8FF3BF4CD3757C4C9070D78A /* Pods-WQTokenCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQTokenCore_Tests.release.xcconfig"; path = "Target Support Files/Pods-WQTokenCore_Tests/Pods-WQTokenCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		ADB8DE0D69B75EBC4FC5121F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ADB8DE0D69B75EBC4FC5121F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CD58D655D8DE2266BFD2D8C2 /* Pods_WQTokenCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WQTokenCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FBD3330ADAF2337FEABA97 /* Pods_WQTokenCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WQTokenCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB5660FFC51C429300A478D2 /* WQTokenCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WQTokenCore.podspec; path = ../WQTokenCore.podspec; sourceTree = "<group>"; };
+		EB5660FFC51C429300A478D2 /* WQTokenCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WQTokenCore.podspec; path = ../WQTokenCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +79,6 @@
 				755591BD0CF97A414CACAB79 /* Pods-WQTokenCore_Tests.debug.xcconfig */,
 				8FF3BF4CD3757C4C9070D78A /* Pods-WQTokenCore_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -107,6 +108,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				24BB15FE24D11EB7002B3C07 /* PDXTools.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -228,6 +230,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -350,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24BB15FF24D11EB7002B3C07 /* PDXTools.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

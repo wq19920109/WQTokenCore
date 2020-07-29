@@ -1,0 +1,22 @@
+{
+  "name": "WQTokenCore",
+  "version": "0.1.0",
+  "summary": "A short description of WQTokenCore.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/2449974535@qq.com/WQTokenCore",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "2449974535@qq.com": "qi.wang@pdx.ltd"
+  },
+  "source": {
+    "git": "https://github.com/2449974535@qq.com/WQTokenCore.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WQTokenCore/Classes/**/*"
+}
